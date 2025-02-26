@@ -1,0 +1,89 @@
+body {
+  margin: 0;
+}
+
+.navigation {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid #c0c0c0;
+  padding: 16px 60px;
+}
+
+.logo {
+  font-size: 24px;
+}
+
+.nav-buttons {
+  display: flex;
+  gap: 10px;
+}
+
+.nav-btn {
+  padding: 10px 16px;
+  background-color: #7a7a7a;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+h1 {
+  font-size: 36px;
+  margin: 20px 0;
+  text-align: center;
+}
+
+.wrapper {
+  display: flex;
+  justify-content: center;
+}
+
+.contents {
+  width: 80%;
+  margin: 50px 0;
+}
+
+.coffee-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+  max-height: 600px; /* 최대 높이 설정 */
+  overflow-y: auto; /* 스크롤 가능하도록 설정 */
+}
+
+.coffee-item {
+  background-color: #f9f9f9;
+  padding: 20px;
+  border-radius: 8px;
+  text-align: center;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  width: 200px;
+}
+
+.coffee-image {
+  width: 100%;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 8px;
+}
+
+.buy-btn {
+  padding: 10px 16px;
+  background-color: #389d74;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+.buy-btn:hover {
+  background-color: #2e7a5a;
+}
+
+p {
+  margin: 8px 0;
+  color: #7a7a7a;
+}

@@ -1,0 +1,73 @@
+/* Resetting margin and applying a basic font */
+body {
+  margin: 0;
+}
+
+/* Navigation bar styles */
+.navigation {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid #c0c0c0;
+  padding: 16px 60px;
+}
+
+.logo {
+  font-size: 24px;
+}
+
+.nav-buttons {
+  display: flex;
+  gap: 10px;
+}
+
+.nav-btn {
+  padding: 10px 16px;
+  background-color: #7a7a7a;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+/* Content styles */
+.wrapper {
+  display: flex;
+  justify-content: center;
+}
+
+.contents {
+  width: 80%;
+  margin: 50px 0;
+  text-align: center;
+}
+
+.points {
+  font-size: 36px; /* Matching the font size with the pointstore.css */
+  margin-bottom: 20px;
+}
+
+.profile-picture {
+  margin-bottom: 20px;
+}
+
+.profile-picture img {
+  width: 150px;
+  height: 150px;
+  border-radius: 8px; /* Consistent with buttons and containers */
+  object-fit: cover;
+}
+
+.upload-button {
+  background-color: #7a7a7a;  /* Same as the buy button in pointstore.css */
+  color: white;
+  padding: 10px 16px;
+  text-decoration: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.upload-button input {
+  display: none;
+}

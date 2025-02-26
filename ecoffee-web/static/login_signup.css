@@ -1,0 +1,62 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+.wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #f0f0f0;
+}
+
+* {
+  font-family: sans-serif;
+  font-weight: 200;
+}
+
+form {
+  background: #fff;
+  padding: 300px;  /* 내부 여백을 늘려 폼이 더 크고 넉넉해 보이도록 조정 */
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  width: 700px;  /* 폼의 너비를 증가시켜 전체 크기를 키움 */
+}
+
+h2 {
+  margin-bottom: 20px;
+}
+
+div {
+  margin-bottom: 15px;  /* 요소 간의 간격을 넓혀서 여유 공간을 추가 */
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+input {
+  width: 100%;
+  padding: 10px;  /* 입력 필드의 내부 여백을 늘려서 크기를 키움 */
+  box-sizing: border-box;
+}
+
+button {
+  width: 100%;
+  padding: 15px;  /* 버튼의 크기를 더 크게 조정 */
+  background-color: #7a7a7a;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+p {
+  margin-top: 20px;
+}
+
+a {
+  color: #007BFF;
+}

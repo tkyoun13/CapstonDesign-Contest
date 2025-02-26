@@ -1,0 +1,86 @@
+/* 전체 페이지의 기본 스타일 */
+body {
+  margin: 0;
+  /* font-family: Arial, sans-serif; */
+}
+
+/* 상단 네비게이션 바 스타일 */
+.navigation {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid #c0c0c0;
+  padding: 16px 60px;
+  background-color: #fff;
+}
+
+.navigation div {
+  font-size: 16px;
+  font-weight: normal;
+}
+
+.nav-buttons form {
+  display: inline;
+}
+
+.nav-buttons .nav-btn {
+  padding: 10px 16px;
+  background-color: #7a7a7a;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+.nav-buttons .nav-btn:hover {
+  background-color: #555;
+}
+
+/* 메인 컨텐츠 영역 스타일 */
+.wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: calc(100vh - 72px); /* 네비게이션 바 높이를 뺀 나머지 화면 높이 */
+  padding-top: 72px; /* 네비게이션 바 높이 */
+  box-sizing: border-box;
+}
+
+.contents {
+  width: 73.6%;
+  margin: 70px 0px;
+  background-color: white;
+  padding: 40px 20px; /* 적절한 여백을 추가 */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  text-align: center;
+}
+
+.contents h1 {
+  margin: 0;
+  font-size: 54px;
+  color: #333;
+}
+
+.contents p {
+  font-size: 18px;
+  color: #666;
+  margin-bottom: 15px;
+}
+
+.contents .nav-btn {
+  padding: 10px 16px;
+  background-color: #28a745;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  text-transform: uppercase;
+  font-size: 14px;
+  text-decoration: none;
+}
+
+.contents .nav-btn:hover {
+  background-color: #218838;
+}
