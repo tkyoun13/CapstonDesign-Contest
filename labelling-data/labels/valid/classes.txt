@@ -1,0 +1,5 @@
+plastic_cup
+paper_cup
+bottle
+can
+logo
